@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cd \"/Users/prestontylor/Desktop/Cracked dev/Shuck\" && npx create-next-app@latest . --typescript --tailwind --eslint --app --src-dir --import-alias \"@/*\" --no-turbopack 2>&1)",
+      "Bash(cd \"/Users/prestontylor/Desktop/Cracked dev/Shuck\" && npx create-next-app@latest . --typescript --tailwind --eslint --app --src-dir --import-alias \"@/*\" --no-turbopack --name shuck 2>&1)",
+      "Bash(cd \"/Users/prestontylor/Desktop/Cracked dev/Shuck\" && npx create-next-app@latest shuck-app --typescript --tailwind --eslint --app --src-dir --import-alias \"@/*\" --no-turbopack 2>&1)"
+    ]
+  }
+}
