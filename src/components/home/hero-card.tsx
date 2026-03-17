@@ -44,32 +44,32 @@ export function HeroCard() {
         <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
 
         {/* CTA content */}
-        <div className="absolute inset-0 flex flex-col items-center justify-end pb-12 md:pb-16 px-6 text-center">
+        <div className="absolute inset-0 flex flex-col items-center justify-center px-6 text-center">
           {/* Logo */}
           <Image
-            src="/Shuck logo.png"
+            src="/shuck text logo.png"
             alt="SHUCK"
-            width={200}
-            height={70}
-            className="h-14 md:h-20 w-auto mb-6 brightness-0 invert"
+            width={600}
+            height={200}
+            className="h-64 md:h-96 w-auto mb-6 mix-blend-multiply"
           />
 
           {/* Tagline */}
-          <p className="text-white/80 text-sm md:text-base mb-8 max-w-xs leading-relaxed">
+          <p className="text-white/80 text-sm md:text-base mb-8 max-w-sm leading-relaxed">
             Spring 2026 Collection. Built for the ones who move different.
           </p>
 
           {/* Buttons */}
-          <div className="flex flex-col sm:flex-row gap-3">
+          <div className="flex flex-row gap-3">
             <Link
               href="/shop"
-              className="inline-flex items-center justify-center gap-2 bg-white text-foreground text-sm font-semibold px-8 py-3 hover:bg-white/90 transition-colors"
+              className="inline-flex items-center justify-center gap-2 bg-white text-foreground text-sm font-semibold px-6 py-2.5 rounded-full hover:bg-white/90 transition-colors"
             >
               Shop Now <ArrowUpRight className="h-4 w-4" />
             </Link>
             <Link
               href="/about"
-              className="inline-flex items-center justify-center gap-2 border border-white/50 text-white text-sm font-medium px-8 py-3 hover:bg-white/10 transition-colors"
+              className="inline-flex items-center justify-center gap-2 border border-white/60 text-white text-sm font-medium px-6 py-2.5 rounded-full hover:bg-white/10 transition-colors"
             >
               Our Story
             </Link>
